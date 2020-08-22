@@ -1,12 +1,16 @@
 import React from 'react';
 //import logo from './logo.svg';
+import $ from 'jquery'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'react-bootstrap';
 import './App.css';
+
 
 ///js
 
 import Heada from './Heada';
 import Foota from './Foota';
-import Bodi from './Bodi';
+
 
 
 
@@ -16,7 +20,7 @@ class App extends React.Component {
       
       <div>
         <Heada/>
-        <Bodi/>
+        
         <Foota/>
       </div>
     );
